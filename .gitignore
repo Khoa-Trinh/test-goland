@@ -1,0 +1,48 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Output of `go build`
+/bin/
+/build/
+/dist/
+
+# Dependency directories (if using vendoring)
+/vendor/
+
+# Go workspace file
+go.work
+go.work.sum
+
+# Test binary
+*.coverprofile
+
+# IDE/editor configs
+.vscode/
+.idea/
+*.swp
+*.swo
+*.DS_Store
+*.log
+
+# Go module files are usually kept (do NOT ignore these):
+# go.mod
+# go.sum
+
+# If you use tools like staticcheck or golangci-lint:
+.statik/
+.cache/
+.golangci.yml
+
+# Coverage and profiling files
+coverage.*
+profile.out
+
+# Local environment config files (if any)
+.env
+.env.*
